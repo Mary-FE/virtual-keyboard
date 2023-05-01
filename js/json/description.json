@@ -1,0 +1,32 @@
+{
+    "title": {
+        "tag": "h1",
+        "text": "RSS Виртуальная клавиатура"
+    },
+
+    "text-1": {
+        "tag": "div",
+        "text": "Клавиатура создана в операционной системе Windows"
+    },
+
+    "text-2": {
+        "tag": "div",
+        "text": "Для переключения языка комбинация: левыe <strong>ctrl + alt</strong>"
+    },
+
+    "input": {
+        "tag": "input",
+        "text": "",
+        "attr": { 
+            "type": "text"
+        }
+    },
+
+    "textarea": {
+        "tag": "textarea",
+        "text": "",
+        "attr": { 
+            "rows": "8"
+        }
+    }
+}
