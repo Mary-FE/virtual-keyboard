@@ -82,6 +82,11 @@
     user-select: none;
 }
 
+.vk-keyboard-button:hover,
+.vk-keyboard-button.special:hover {
+    background-color: #90ee90;
+}
+
 .vk-keyboard-button.symbol {
     max-width: 1.8rem;
 }
