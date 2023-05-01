@@ -3,8 +3,9 @@
 :root {
     --main-color: #07a5d8;
     --button-bg-color: #fff;
+    --button-bg-active: #90ee90;
     --button-bg-color-special: #000;
-    --keyboard-width: 626px;
+    --keyboard-width: 630px;
 }
 
 * {
@@ -37,6 +38,13 @@
     margin: 1rem 0 2rem;
     padding: .75rem;
     border-radius: .5rem;
+    outline: 0;
+}
+
+/* Need for JS focus fix */
+.vk-description input {
+    opacity: 0;
+    height: 0;
 }
 
 /* [ Virtual keyboard ]: Keyboard */
@@ -47,6 +55,10 @@
     background: var(--main-color);
     border-radius: .5rem;
     font-size: 14px;
+}
+
+.vk-keyboard.hidden {
+    display: none;
 }
 
 .vk-keyboard-row {
@@ -66,6 +78,12 @@
     background-color: var(--button-bg-color);
     border-radius: .25rem;
     cursor: pointer;
+    transition: .3s;
+    user-select: none;
+}
+
+.vk-keyboard-button.symbol {
+    max-width: 1.8rem;
 }
 
 .vk-keyboard-button.special {
@@ -84,7 +102,7 @@
 }
 
 .vk-keyboard-button.backspace {
-    min-width: 109px;
+    min-width: 115px;
 }
 
 .vk-keyboard-button.tab {
@@ -92,7 +110,7 @@
 }
 
 .vk-keyboard-button.delete {
-    min-width: 65px;
+    min-width: 70px;
 }
 
 .vk-keyboard-button.capslock {
@@ -104,13 +122,22 @@
 }
 
 .vk-keyboard-button.r-shift {
-    min-width: 95px;
+    min-width: 102px;
 }
 
 .vk-keyboard-button.whitespace {
-    min-width: 177px;
+    min-width: 182px;
 }
 
 .vk-keyboard-button.enter {
-    min-width: 104px;
+    min-width: 110px;
+}
+
+/* Active state */
+.vk-keyboard-button.active,
+span.vk-keyboard-button.shift-active,
+span.vk-keyboard-button.caps-active {
+    background-color: var(--button-bg-active) !important;
+    color: var(--button-bg-color-special) !important;
+    border-radius: 15px;
 }
