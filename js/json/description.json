@@ -1,22 +1,30 @@
 {
     "title": {
         "tag": "h1",
-        "value": "RSS Виртуальная клавиатура"
+        "text": "RSS Виртуальная клавиатура"
     },
 
     "text-1": {
         "tag": "div",
-        "value": "Клавиатура создана в операционной системе Windows"
+        "text": "Клавиатура создана в операционной системе Windows"
     },
 
     "text-2": {
         "tag": "div",
-        "value": "Для переключения языка комбинация: левыe <strong>ctrl + alt</strong>"
+        "text": "Для переключения языка комбинация: левыe <strong>ctrl + alt</strong>"
+    },
+
+    "input": {
+        "tag": "input",
+        "text": "",
+        "attr": { 
+            "type": "text"
+        }
     },
 
     "textarea": {
         "tag": "textarea",
-        "value": "",
+        "text": "",
         "attr": { 
             "rows": "8"
         }

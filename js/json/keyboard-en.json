@@ -1,0 +1,645 @@
+{
+    "row-1": {
+        "tag": "div",
+        "cls": ["vk-keyboard-row"],
+        "buttons": {
+            "key-1": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "first"],
+                "text": "`",
+                "attr": {
+                    "keyCode": 192,
+                    "register": "~",
+                    "defaultReg": "`"
+                }
+            },
+            "key-2": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "1",
+                "attr": {
+                    "keyCode": 49,
+                    "register": "!",
+                    "defaultReg": "1"
+                }
+            },
+            "key-3": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "2",
+                "attr": {
+                    "keyCode": 50,
+                    "register": "@",
+                    "defaultReg": "2"
+                }
+            },
+            "key-4": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "3",
+                "attr": {
+                    "keyCode": 51,
+                    "register": "#",
+                    "defaultReg": "3"
+                }
+            },
+            "key-5": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "4",
+                "attr": {
+                    "keyCode": 52,
+                    "register": "$",
+                    "defaultReg": "4"
+                }
+            },
+            "key-6": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "5",
+                "attr": {
+                    "keyCode": 53,
+                    "register": "%",
+                    "defaultReg": "5"
+                }
+            },
+            "key-7": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "6",
+                "attr": {
+                    "keyCode": 54,
+                    "register": "^",
+                    "defaultReg": "6"
+                }
+            },
+            "key-8": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "7",
+                "attr": {
+                    "keyCode": 55,
+                    "register": "&",
+                    "defaultReg": "7"
+                }
+            },
+            "key-9": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "8",
+                "attr": {
+                    "keyCode": 56,
+                    "register": "*",
+                    "defaultReg": "8"
+                }
+            },
+            "key-10": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "9",
+                "attr": {
+                    "keyCode": 57,
+                    "register": "(",
+                    "defaultReg": "9"
+                }
+            },
+            "key-11": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "0",
+                "attr": {
+                    "keyCode": 48,
+                    "register": ")",
+                    "defaultReg": "0"
+                }
+            },
+            "key-12": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "-",
+                "attr": {
+                    "keyCode": 189,
+                    "register": "_",
+                    "defaultReg": "-"
+                }
+            },
+            "key-13": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button"],
+                "text": "=",
+                "attr": {
+                    "keyCode": 187,
+                    "register": "+",
+                    "defaultReg": "="
+                }
+            },
+            "key-14": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "backspace"],
+                "text": "Backspace",
+                "attr": {
+                    "keyCode": 8
+                }
+            }
+
+        }
+    },
+
+    "row-2": {
+        "tag": "div",
+        "cls": ["vk-keyboard-row"],
+        "buttons": {
+            "key-1": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "tab"],
+                "text": "Tab",
+                "attr": {
+                    "keyCode": 9
+                }
+            },
+            "key-2": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "q",
+                "attr": {
+                    "keyCode": 81,
+                    "capslock": "Q",
+                    "defaultReg": "q"
+                }
+            },
+            "key-3": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "w",
+                "attr": {
+                    "keyCode": 87,
+                    "capslock": "W",
+                    "defaultReg": "w"
+                }
+            },
+            "key-4": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "e",
+                "attr": {
+                    "keyCode": 69,
+                    "capslock": "E",
+                    "defaultReg": "e"
+                }
+            },
+            "key-5": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "r",
+                "attr": {
+                    "keyCode": 82,
+                    "capslock": "R",
+                    "defaultReg": "r"
+                }
+            },
+            "key-6": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "t",
+                "attr": {
+                    "keyCode": 84,
+                    "capslock": "T",
+                    "defaultReg": "t"
+                }
+            },
+            "key-7": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "y",
+                "attr": {
+                    "keyCode": 89,
+                    "capslock": "Y",
+                    "defaultReg": "y"
+                }
+            },
+            "key-8": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "u",
+                "attr": {
+                    "keyCode": 85,
+                    "capslock": "U",
+                    "defaultReg": "u"
+                }
+            },
+            "key-9": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "i",
+                "attr": {
+                    "keyCode": 73,
+                    "capslock": "I",
+                    "defaultReg": "i"
+                }
+            },
+            "key-10": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "o",
+                "attr": {
+                    "keyCode": 79,
+                    "capslock": "O",
+                    "defaultReg": "o"
+                }
+            },
+            "key-11": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "p",
+                "attr": {
+                    "keyCode": 80,
+                    "capslock": "P",
+                    "defaultReg": "p"
+                }
+            },
+            "key-12": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "[",
+                "attr": {
+                    "keyCode": 219,
+                    "register": "{",
+                    "defaultReg": "["
+                }
+            },
+            "key-13": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "]",
+                "attr": {
+                    "keyCode": 221,
+                    "register": "}",
+                    "defaultReg": "]"
+                }
+            },
+            "key-14": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "\\",
+                "attr": {
+                    "keyCode": 220,
+                    "register": "|",
+                    "defaultReg": "\\"
+                }
+            },
+            "key-15": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "delete"],
+                "text": "Del",
+                "attr": {
+                    "keyCode": 46
+                }
+            }
+
+        }
+    },
+
+    "row-3": {
+        "tag": "div",
+        "cls": ["vk-keyboard-row"],
+        "buttons": {
+            "key-1": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "capslock"],
+                "text": "CapsLock",
+                "attr": {
+                    "keyCode": 20
+                }
+            },
+            "key-2": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "a",
+                "attr": {
+                    "keyCode": 65,
+                    "capslock": "A",
+                    "defaultReg": "a"
+                }
+            },
+            "key-3": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "s",
+                "attr": {
+                    "keyCode": 83,
+                    "capslock": "S",
+                    "defaultReg": "s"
+                }
+            },
+            "key-4": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "d",
+                "attr": {
+                    "keyCode": 68,
+                    "capslock": "D",
+                    "defaultReg": "d"
+                }
+            },
+            "key-5": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "f",
+                "attr": {
+                    "keyCode": 70,
+                    "capslock": "F",
+                    "defaultReg": "f"
+                }
+            },
+            "key-6": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "g",
+                "attr": {
+                    "keyCode": 71,
+                    "capslock": "G",
+                    "defaultReg": "g"
+                }
+            },
+            "key-7": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "h",
+                "attr": {
+                    "keyCode": 72,
+                    "capslock": "H",
+                    "defaultReg": "h"
+                }
+            },
+            "key-8": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "j",
+                "attr": {
+                    "keyCode": 74,
+                    "capslock": "J",
+                    "defaultReg": "j"
+                }
+            },
+            "key-9": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "k",
+                "attr": {
+                    "keyCode": 75,
+                    "capslock": "K",
+                    "defaultReg": "k"
+                }
+            },
+            "key-10": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "l",
+                "attr": {
+                    "keyCode": 76,
+                    "capslock": "L",
+                    "defaultReg": "l"
+                }
+            },
+            "key-11": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": ";",
+                "attr": {
+                    "keyCode": 186,
+                    "register": ":",
+                    "defaultReg": ";"
+                }
+            },
+            "key-12": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "'",
+                "attr": {
+                    "keyCode": 222,
+                    "register": "\"",
+                    "defaultReg": "'"
+                }
+            },
+            "key-13": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "enter"],
+                "text": "Enter",
+                "attr": {
+                    "keyCode": 13
+                }
+            }
+        }
+    },
+
+    "row-4": {
+        "tag": "div",
+        "cls": ["vk-keyboard-row"],
+        "buttons": {
+            "key-1": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "l-shift"],
+                "text": "Shift",
+                "attr": {
+                    "keyCode": 16
+                }
+            },
+            "key-2": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "z",
+                "attr": {
+                    "keyCode": 90,
+                    "capslock": "Z",
+                    "defaultReg": "z"
+                }
+            },
+            "key-3": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "x",
+                "attr": {
+                    "keyCode": 88,
+                    "capslock": "X",
+                    "defaultReg": "x"
+                }
+            },
+            "key-4": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "c",
+                "attr": {
+                    "keyCode": 67,
+                    "capslock": "C",
+                    "defaultReg": "c"
+                }
+            },
+            "key-5": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "v",
+                "attr": {
+                    "keyCode": 86,
+                    "capslock": "V",
+                    "defaultReg": "v"
+                }
+            },
+            "key-6": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "b",
+                "attr": {
+                    "keyCode": 66,
+                    "capslock": "B",
+                    "defaultReg": "b"
+                }
+            },
+            "key-7": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "n",
+                "attr": {
+                    "keyCode": 78,
+                    "capslock": "N",
+                    "defaultReg": "n"
+                }
+            },
+            "key-8": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "m",
+                "attr": {
+                    "keyCode": 77,
+                    "capslock": "M",
+                    "defaultReg": "m"
+                }
+            },
+            "key-9": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": ",",
+                "attr": {
+                    "keyCode": 188,
+                    "register": "<",
+                    "defaultReg": ","
+                }
+            },
+            "key-10": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": ".",
+                "attr": {
+                    "keyCode": 190,
+                    "register": ">",
+                    "defaultReg": "."
+                }
+            },
+            "key-11": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "symbol"],
+                "text": "/",
+                "attr": {
+                    "keyCode": 191,
+                    "register": "?",
+                    "defaultReg": "/"
+                }
+            },
+            "key-12": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "▲",
+                "attr": {
+                    "keyCode": 38
+                }
+            },
+            "key-13": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "r-shift", "right"],
+                "text": "Shift",
+                "attr": {
+                    "keyCode": 16
+                }
+            }
+        }
+    },
+
+    "row-5": {
+        "tag": "div",
+        "cls": ["vk-keyboard-row"],
+        "buttons": {
+            "key-1": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "Ctrl",
+                "attr": {
+                    "keyCode": 17
+                }
+            },
+            "key-2": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "Win",
+                "attr": {
+                    "keyCode": 91
+                }
+            },
+            "key-3": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "Alt",
+                "attr": {
+                    "keyCode": 18
+                }
+            },
+            "key-4": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "whitespace"],
+                "text": " ",
+                "attr": {
+                    "keyCode": 32
+                }
+            },
+            "key-5": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "r-alt", "right"],
+                "text": "Alt",
+                "attr": {
+                    "keyCode": 18
+                }
+            },
+            "key-6": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "◄",
+                "attr": {
+                    "keyCode": 37
+                }
+            },
+            "key-7": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "▼",
+                "attr": {
+                    "keyCode": 40
+                }
+            },
+            "key-8": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special"],
+                "text": "►",
+                "attr": {
+                    "keyCode": 39
+                }
+            },
+            "key-9": {
+                "tag": "span",
+                "cls": ["vk-keyboard-button", "special", "r-ctrl", "right"],
+                "text": "Ctrl",
+                "attr": {
+                    "keyCode": 17
+                }
+            }
+        }
+    }
+
+}
